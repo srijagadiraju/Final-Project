@@ -1,0 +1,38 @@
+diagnoses = {
+        ("chest", "burning"): [
+            "Heartburn",
+            "Gastrointestinal (GI) issues",
+            "Symptom of a panic attack",
+            "Anxiety",
+            "Heart attack",
+            "Aortic dissection",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.mayoclinic.org/diseases-conditions/heartburn/in-depth/heartburn-gerd/art-20046483"
+        ],
+        ("chest", "itching"): [
+            "Contact dermatitis (contact allergies)",
+            "Acne vulgaris – when hair follicles are clogged with sebum and dead skin cells",
+            "Psoriasis",
+            "Pruritis",
+            "Shingles",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.healthline.com/health/itchy-chest#The-takeaway"
+        ],
+        ("chest", "stabbing"): [
+            "Heart attack",
+            "Pericarditis – inflammation of the membranes surrounding the heart",
+            "Angina – due to reduced blood flow to the heart",
+            "Precordial catch syndrome – can cause pain when shifting positions",
+            "Panic attack",
+            "Fractures or strains",
+            "Pleuritis – inflammation of the lining around the chest and lungs",
+            "Coronary artery disease",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://my.clevelandclinic.org/health/symptoms/21209-chest-pain"
+        ],
+        ("chest", "tingling"): [
+            "Angina – when heart does not get enough blood and oxygen, leading to ischemia",
+            "Panic attack",
+            "Parasthesia",
+            "Stroke",
+            "Thoracic outlet syndrome",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.healthline.com/health/numbness-in-chest#when-to-see-your-doctor"
+        ]
+    }
