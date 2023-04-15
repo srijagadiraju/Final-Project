@@ -1,4 +1,4 @@
-diagnoses = {
+{
         ("chest", "burning"): [
             "Heartburn",
             "Gastrointestinal (GI) issues",
@@ -34,5 +34,64 @@ diagnoses = {
             "Stroke",
             "Thoracic outlet syndrome",
             "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.healthline.com/health/numbness-in-chest#when-to-see-your-doctor"
+        ], 
+         ("kidney", "burning"): [
+        "Kidney stones",
+        "Pyelonephritis (kidney infection)",
+        "Urinary retention",
+        "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://my.clevelandclinic.org/health/symptoms/17688-kidney-pain"
+        ],
+        ("kidney", "itching"): [
+            "Associated pruritus – itchy skin caused by long-term kidney disease",
+            "Chronic kidney disease (CKD)",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.aad.org/public/diseases/a-z/kidney-disease-warning-signs#:~:text=Extremely%20itchy%20skin%20is%20a,one%20area%20of%20their%20skin."
+        ],
+        ("kidney", "stabbing"): [
+            "Kidney stones",
+            "Pyelonephritis (kidney infection)",
+            "Urinary retention",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://my.clevelandclinic.org/health/symptoms/17688-kidney-pain"
+        ],
+        ("kidney", "tingling"): [
+            "Urinary tract infection (UTI)",
+            "Pyelonephritis (kidney infection)",
+            "Renal vein thrombosis (blood clot gets stuck in a vein that carries blood from the kidneys)",
+            "Sepsis",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.webmd.com/a-to-z-guides/kidney-pain"
+        ], 
+        ("head", "burning"): [
+            "Occipital neuralgia",
+            "Osteoarthritis",
+            "Head trauma",
+            "Anxiety/panic attack",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Occipital-Neuralgia"
+        ],
+        ("head", "itching"): [
+            "Dandruff",
+            "Lice",
+            "Reaction to products",
+            "Stress",
+            "Migraine headaches",
+            "Alopecia",
+            "Ringworm (tinea capitis)",
+            "Hives",
+            "Scalp psoriasis",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.aad.org/public/everyday-care/itchy-skin/itch-relief/relieve-scalp-itch"
+        ],
+        ("head", "stabbing"): [
+            "Stress",
+            "Nausea/vomiting",
+            "Meningioma (brain tumor)",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://my.clevelandclinic.org/health/diseases/21916-ice-pick-headache"
+        ],
+        ("head", "tingling"): [
+            "Paresthesia – nerve sustains continued pressure (chronic or acute)",
+            "Sinusitis – sinus infection",
+            "Migraines",
+            "Stress/anxiety",
+            "Head injury",
+            "Infections",
+            "Epilepsy/seizures",
+            "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.healthline.com/health/tingling-in-head"
         ]
-    }
+}

@@ -1,7 +1,4 @@
-
-def body_input():
-    diagnoses = open("diagnoses.txt", "r")
-    print("file", diagnoses)
+def body_input(diagnoses):
     body_parts = ["chest"]
 
     while True:
@@ -38,12 +35,14 @@ def body_input():
 
 
 def main():
-    body_input()
+    # Import diagnoses from diagnoses.txt
+    #with open("diagnoses.txt", "r") as f:
+        #data = eval(f.read())
+    with open("diagnoses.txt", "r") as f:
+        data_2 = eval(f.read())
+
+    body_input(data_2)
 
 
 if __name__ == "__main__":
     main()
-
-        
-
-
