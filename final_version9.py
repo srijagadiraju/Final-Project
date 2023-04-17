@@ -15,15 +15,15 @@ def get_location():
 
     while True:
         # ask for the location of patient's pain
-        location = input("Where is your pain located? ")
+        location = input("Where is your pain located? ").strip().lower()
         # check if the entered location is valid
-        if location.lower() not in body_parts:
+        if location not in body_parts:
             # if not valid, print a message and return None
             print(f"This program is not equipped to diagnose {location} pain.")
             return None
         else:
             # if valid, return the lowercase version of the location (stored to form tuple -- key in dictionary)
-            return location.lower()
+            return location
 
 
 def get_pain_type():
@@ -40,14 +40,14 @@ def get_pain_type():
     """
     while True:
         # ask for the type of pain
-        pain_type = input("What type of pain do you have (burning, itching, stabbing, tingling)? ")
+        pain_type = input("What type of pain do you have (burning, itching, stabbing, tingling)? ").strip().lower()
         # check if the entered pain type is valid
-        if pain_type.lower() not in ["burning", "itching", "stabbing", "tingling"]:
+        if pain_type not in ["burning", "itching", "stabbing", "tingling"]:
             # if not valid, print a message and continue prompting
             print("Please choose from the given options: burning, itching, stabbing, tingling.")
         else:
             # if valid, return the lowercase version of the type
-            return pain_type.lower()
+            return pain_type
 
 
 def check_pain(data, location, pain_type):
@@ -101,7 +101,7 @@ def body_input(data):
 
         # ask patient if they want to ask about another body part
         while True:
-            another_part = input("\nWould you like to ask about another body part? (yes or no) ")
+            another_part = input("\nWould you like to ask about another body part? (yes or no) ").strip().lower()
             # if they would, break function to restart 
             if another_part.lower() == "yes":
                 break
@@ -111,11 +111,11 @@ def body_input(data):
                 return
             else:
             # continue printing error until correct choices are inputted 
-                print("Invalid option. Please enter yes or no.\n")
+                print("Please enter yes or no.\n")
 
 
 def main():
-     """
+    """
     Main function to run the program. Reads in data from a file, prompts the user for input on pain location and type, 
     and outputs any matching diagnoses from the dictionary.
 
@@ -123,11 +123,11 @@ def main():
         None
     """
     # initialize an empty dictionary called 'data'
-data = {}
+    data = {}
 
-    # open the file "diagnoses.txt" and store its contents in 'data' using the 'eval' function
-with open("diagnoses.txt", "r") as file:
-    data = eval(file.read())
+    # open the file "diagnoses.txt," read it, and store its contents in 'data' using the 'eval' function
+    with open("diagnoses.txt", "r") as file:
+        data = eval(file.read())
 
     # call the 'body_input' function with the 'data' dictionary as argument
     body_input(data)
@@ -135,7 +135,3 @@ with open("diagnoses.txt", "r") as file:
 
 if __name__ == "__main__":
     main()
-   
-   
-  
-            

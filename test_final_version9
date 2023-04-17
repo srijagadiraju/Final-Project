@@ -1,0 +1,23 @@
+from final_version9 import get_location, get_pain_type, check_pain, body_input
+
+def test_get_location():
+    # test a valid location
+    location = "chest"
+    expected = "chest"
+    assert get_location(location) == expected
+
+    # test an invalid location
+    location = "back"
+    expected = None
+    assert get_location(location) == expected
+
+    # test case sensitivity
+    location = "HEad"
+    expected = "head"
+    assert get_location(location) == expected
+    
+def main():
+    test_get_location()
+
+if __name__ == "__main__":
+    main()
