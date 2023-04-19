@@ -1,4 +1,15 @@
-def get_location():
+"""
+FINAL PROJECT: Pain Diagnosis Tool
+===========================
+Course:   CS 5001
+Semester: Spring 2023
+Student:  Srija Gadiraju                            
+Final Code for 5001 FInal Project
+
+""" 
+
+
+def get_location(patient_input):
     """
     Prompts patient to input location of their pain (gets the location of the pain from the patient). 
     Returns a string representing the location of the patient's pain.
@@ -26,7 +37,7 @@ def get_location():
             return location
 
 
-def get_pain_type():
+def get_pain_type(patient_input):
     """
     Prompts the patient to input their pain type. Returns a string representing the patient's pain type.
     
@@ -123,7 +134,7 @@ def main():
         None
     """
     # initialize an empty dictionary called 'data'
-    data = {}
+    data = {}      
 
     # open the file "diagnoses.txt," read it, and store its contents in 'data' using the 'eval' function
     with open("diagnoses.txt", "r") as file:
