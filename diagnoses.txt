@@ -87,9 +87,9 @@
         ("head", "tingling"): [
             "Paresthesia – nerve sustains continued pressure (chronic or acute)",
             "Sinusitis – sinus infection",
+            "Head injury",
             "Migraines",
             "Stress/anxiety",
-            "Head injury",
             "Infections",
             "Epilepsy/seizures",
             "If symptoms persist for longer than 3 days or if they worsen, please seek medical attention from a licensed professional. For more details, please visit https://www.healthline.com/health/tingling-in-head"
