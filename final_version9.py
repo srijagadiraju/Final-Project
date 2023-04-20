@@ -4,7 +4,7 @@ FINAL PROJECT: Pain Diagnosis Tool
 Course:   CS 5001
 Semester: Spring 2023
 Student:  Srija Gadiraju                            
-Final Code for 5001 FInal Project
+Final Code for 5001 Final Project
 
 """ 
 
