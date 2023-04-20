@@ -9,7 +9,7 @@ Final Code for 5001 FInal Project
 """ 
 
 
-def get_location(patient_input):
+def get_location() -> str:
     """
     Prompts patient to input location of their pain (gets the location of the pain from the patient). 
     Returns a string representing the location of the patient's pain.
@@ -37,7 +37,7 @@ def get_location(patient_input):
             return location
 
 
-def get_pain_type(patient_input):
+def get_pain_type() -> str:
     """
     Prompts the patient to input their pain type. Returns a string representing the patient's pain type.
     
@@ -61,7 +61,7 @@ def get_pain_type(patient_input):
             return pain_type
 
 
-def check_pain(data, location, pain_type):
+def check_pain(data, location, pain_type) -> None:
     """
     Checks for possible diagnoses based on inputted location and pain type.
 
@@ -88,7 +88,7 @@ def check_pain(data, location, pain_type):
         print(f"No diagnoses found for {pain} pain.")
 
 
-def body_input(data):
+def body_input(data) -> None:
     """
     This function handles the input and processing of pain information for a patient.
     
