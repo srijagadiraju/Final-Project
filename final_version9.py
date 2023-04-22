@@ -47,7 +47,7 @@ def get_pain_type() -> str:
     Returns:
         str: a string representing the patient's pain type. The string only be "burning", "itching",
         "stabbing", "tingling."
-        If not valid, returns None.
+        If not valid, prints error message and re-asks question.
     """
     while True:
         # ask for the type of pain
@@ -72,7 +72,7 @@ def check_pain(data, location, pain_type) -> None:
 
     Returns:
         Prints out possible diagnoses for the given location and type of pain
-        If no diagnosis available, prints out error message
+        If no diagnosis available, prints out error message.
     """
     # create a tuple of the location and pain type -- key
     pain = (location, pain_type)
